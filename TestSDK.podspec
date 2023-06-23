@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TestSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.2"
   spec.summary      = "Test publish SDK"
   spec.description  = "Just test publish SDK"
 
