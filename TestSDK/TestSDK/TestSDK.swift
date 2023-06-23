@@ -8,7 +8,7 @@
 import Foundation
  
 public struct TestSDk {
-    public static func CheckHaveA(_ email: String) -> Bool {
+    public static func CheckHaveA(email: String) -> Bool {
         return email.contains("@")
     }
     

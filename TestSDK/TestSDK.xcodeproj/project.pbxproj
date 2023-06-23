@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		65621DE72A4598560049FFE1 /* TestSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 65621DE62A4598560049FFE1 /* TestSDK.docc */; };
 		65621DED2A4598560049FFE1 /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65621DE22A4598560049FFE1 /* TestSDK.framework */; };
-		65621DF22A4598560049FFE1 /* TestSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65621DF12A4598560049FFE1 /* TestSDKTests.swift */; };
 		65621DF32A4598560049FFE1 /* TestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 65621DE52A4598560049FFE1 /* TestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65621DFD2A4598C10049FFE1 /* TestSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65621DFC2A4598C10049FFE1 /* TestSDK.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		65621DE52A4598560049FFE1 /* TestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSDK.h; sourceTree = "<group>"; };
 		65621DE62A4598560049FFE1 /* TestSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestSDK.docc; sourceTree = "<group>"; };
 		65621DEC2A4598560049FFE1 /* TestSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65621DF12A4598560049FFE1 /* TestSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSDKTests.swift; sourceTree = "<group>"; };
 		65621DFC2A4598C10049FFE1 /* TestSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				65621DE42A4598560049FFE1 /* TestSDK */,
-				65621DF02A4598560049FFE1 /* TestSDKTests */,
 				65621DE32A4598560049FFE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,14 +75,6 @@
 				65621DFC2A4598C10049FFE1 /* TestSDK.swift */,
 			);
 			path = TestSDK;
-			sourceTree = "<group>";
-		};
-		65621DF02A4598560049FFE1 /* TestSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				65621DF12A4598560049FFE1 /* TestSDKTests.swift */,
-			);
-			path = TestSDKTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65621DF22A4598560049FFE1 /* TestSDKTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +351,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.justscan.TestSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.TestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -394,7 +382,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.justscan.TestSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.TestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
